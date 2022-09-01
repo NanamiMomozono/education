@@ -1,1 +1,27 @@
-p {color: red;}
+body { 
+width: 70%;
+padding-left: 15%;
+padding-right: 15%;
+}
+
+h1,h2,h3 {
+font-family: sans-serif;
+margin-top: 1.5em;
+}
+
+h1{
+font-size: 50px;
+}
+
+h2{
+font-size: 32px;
+}
+
+table, td, tr, th {
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+figure {
+font-style: italic;
+}
