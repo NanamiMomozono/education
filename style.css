@@ -19,8 +19,11 @@ table, td, tr, th {
 }
 figure {
   font-style: italic;
+  float:right;
 }
-img {
+section. p {
    float:left
 }
-  
+p {  
+  font-size: 14px;
+}
