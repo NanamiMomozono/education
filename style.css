@@ -1,34 +1,79 @@
-body { 
-  width: 70%;
-  padding-left: 15%;
-  padding-right: 15%;
+/*
+При написании стилей лучше всего придерживаться определенной системы, например:
+
+h1 {
+  font-size: 50px;
 }
-h1,h2,h3 {
-  font-family: sans-serif;
-  margin-top: 1.5em;
-}
+
+соблюдать отступы и пробелы
+
 h1{
   font-size: 50px;
 }
-h2{
-  font-size: 32px;
+
+или
+
+h1 {
+  font-size:50px;
 }
-table, td, tr, th {
-  border: 1px solid black;
-  border-collapse: collapse;
+
+или 
+
+h1{
+  font-size:50px;
 }
+
+хоть и будет работать, но выглядит "не очень". Это называется - соблюдение код-стайла.
+Нужно для удобного чтения кода и его оформления.
+
+Например, можно посмотреть гугловый https://google.github.io/styleguide/htmlcssguide.html
+*/
+
+body {
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: sans-serif;
+    margin-top: 1.5em;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+table,
+td,
+tr,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
 figure {
-  font-style: italic;
-  float:right;
-  text-align: center;
+    font-style: italic;
+    float: right;
+    text-align: center;
 }
-figcaption{
-text-align:center;
+
+figcaption {
+    text-align: center;
 }
+
 section. p {
-   float:left
+    /* тут ошибка section. p -> section p или section .p*/
+    float: left
 }
-p {  
-  font-size: 18px;
-  text-align: justify;
+
+p {
+    font-size: 18px;
+    text-align: justify;
 }
