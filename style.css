@@ -68,7 +68,7 @@ figcaption {
     text-align: center;
 }
 
-section. p {
+section .p {
     /* тут ошибка section. p -> section p или section .p*/
     float: left
 }
